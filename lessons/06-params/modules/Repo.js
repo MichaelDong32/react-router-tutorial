@@ -1,12 +1,11 @@
 import React from 'react'
 
 export default React.createClass({
-  render() {
+  render () {
     return (
       <div>
-        <h1>Hello, my friends!</h1>
-        <h2>We are Michael and Shayan</h2>
+        <h2> {this.props.params.repoName}</h2>
       </div>
-      )
+    )
   }
 })
