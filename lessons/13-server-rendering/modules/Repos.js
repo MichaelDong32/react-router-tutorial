@@ -24,7 +24,7 @@ export default React.createClass({
           <li>
             <form onSubmit={this.handleSubmit}>
               <input type="text" placeholder="userName"/> / {' '}
-              <input type="text" placeholder="repo"/>{' '}
+              <input type="text" placeholder="this goes to repo"/>{' '}
               <button type="submit">Go</button>
             </form>
           </li>
